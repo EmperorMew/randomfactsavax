@@ -47,4 +47,10 @@ async function displayLoadingScreen() {
 Did you know? ${modifiedFact}`);
 }
 
-// Call the function to display the loading
+// Call the function to display the loading screen
+displayLoadingScreen();
+
+// Function to retrieve the exchange rate for AVAX to USD
+async function getExchangeRate() {
+  // Use a third-party API to retrieve the exchange rate data
+  const response = await request
